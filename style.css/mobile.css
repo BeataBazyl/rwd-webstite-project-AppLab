@@ -58,7 +58,7 @@ body {
     background-color: #37ebed;
 }
 
-.hero__picture img{
+.hero__picture img {
     display: block;
     margin: 10px auto;
     width: 90%;
@@ -84,11 +84,13 @@ body {
 }
 
 .widgets__widget--1 {
-    background: linear-gradient(90deg, rgba(9,133,245,1) 0%, rgba(45,152,249,1) 35%, rgba(87,174,254,1) 100%);
+    background: linear-gradient(90deg, rgba(9, 133, 245, 1) 0%, rgba(45, 152, 249, 1) 35%, rgba(87, 174, 254, 1) 100%);
 }
+
 .widgets__widget--2 {
-    background: linear-gradient(90deg, rgba(253,171,92,1) 0%, rgba(253,171,92,1) 50%, rgba(253,142,94,1) 97%);
+    background: linear-gradient(90deg, rgba(253, 171, 92, 1) 0%, rgba(253, 171, 92, 1) 50%, rgba(253, 142, 94, 1) 97%);
 }
+
 .widgets__widget--3 {
     background-color: #37ef8d;
 }
@@ -175,4 +177,105 @@ body {
 
 .checked {
     color: orange;
-  }
+}
+
+.price__section {
+    padding: 30px;
+}
+
+.price__subheading {
+    text-align: center;
+}
+
+.price__box {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.price__box_heading {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 100%;
+}
+
+.price__box_heading--1 {
+    background-color: #e9f4fe;
+    padding: 20px;
+
+}
+
+.price__box_heading--2 {
+    background-color: #fef4ee;
+    padding: 20px;
+}
+
+.price__box_heading--3 {
+    background-color: #e8fcf1;
+    padding: 20px;
+}
+
+.price__button {
+    border: 1px solid #0181f5;
+    color: #0181f5;
+    border-radius: 5px;
+    width: 150px;
+}
+
+.price__box_content {
+    text-align: center;
+    line-height: 2.5rem;
+    padding: 20px;
+}
+
+.price__box_price--1 {
+    color: #4ea2f6;
+}
+
+.price__box_price--2 {
+    color: #fdb36c;
+}
+
+.price__box_price--3 {
+    color: #8fde83;
+}
+
+.price__box_price {
+    font-weight: bold;
+}
+
+.buy__section {
+    background-color: #5db2ff;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buy__heading {
+    color: #fff;
+}
+
+.buy__images_box {
+    display: flex;
+    justify-content: center;
+}
+
+.footer__section {
+    background-color: #1f1f1f;
+    color: #fff;
+    padding: 30px;
+}
+
+.footer__social {
+    padding: 10px;
+}
+
+.icon {
+    padding: 10px;
+}
