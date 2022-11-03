@@ -23,7 +23,7 @@
     >
     <link
         rel="stylesheet"
-        href="./style/reset.css"
+        href="./style.css/reset.css"
     />
 
     <link
@@ -52,75 +52,118 @@
 </head>
 
 <body>
-    <header class="">
-        <div class="menu">
-            <h1 class="">AppLab</h1>
-            <nav class="">
-                <label for="menu-switcher"></label>
-                <input
-                    type="checkbox"
-                    id="menu-switcher"
-                >
-            </nav>
-        </div>
-        <div class="hero">
-            <div class="hero__description">
-                <h1>
-                    Promote Your App With Applab
-                </h1>
-                <button class="hero__button">Get start now</button>
-            </div>
-            <div class="hero__picture">
-                picture
-            </div>
-        </div>
-    </header>
 
-    <main class="">
-
-        <section class="widgets__section">
-            <h2>Save your time using applab</h2>
-            <div class="widgets__headings">
-                <article class="widget">Manage team in One Place</article>
-                <article class="widget">All-powerful Painting has no control</article>
-                <article class="widget">Establish a solid online presence</article>
+        <header class="header__menu">
+            <div class="menu__box">
+                <h1 class="menu__heading">AppLab</h1>
+                <nav class="menu__nav">
+                    <label for="menu-switcher"></label>
+                    <input
+                        type="checkbox"
+                        id="menu-switcher"
+                    >
+                </nav>
             </div>
-        </section>
-
-        <section class="features__section">
-            <div class="features__description">
-                <h1 class="features__heading">
-                    Features that give you a real feel
-                </h1>
-                <button class="features__button">Download Now</button>
-            </div>
-            <div class="features__picture">
-                picture
-            </div>
-        </section>
-
-        <section class="reviews__section">
-            <div class="reviews__box">
-                <h1 class="reviews__heading">
-                    Review from our regular users
-                </h1>
-                <div class="review">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            <div class="hero">
+                <div class="hero__description">
+                    <h1 class="hero__heading">
+                        Promote Your App With Applab
+                    </h1>
+                    <div class="hero__subheading">
+                        Get more useres to promote your app with this template.
+                    </div>
+                    <button class="hero__button">Get start now</button>
                 </div>
-            </div class="reviews__grading">
-            <div class="review__stars">******</div>
-            <div class="review__name">Robert Smile</div>
+                <div class="hero__picture">
+                    <img src="./images/phone.png">
+                </div>
             </div>
-            </div>
-        </section>
+        </header>
 
-        <section class="price__section">
-            <h2 class="price__heading">Unlock full Power</h2>
-            <div class="price__subheading">Lorem ipsum dolor sit...</div>
+        <main>
+
+            <section class="widgets__section">
+                <h2 class="widgets__headings">Save your time using applab</h2>
+                <div class="widgets__subheadings">
+                    <div class="widgets__widget--1"></div>
+                    <p>Manage team in One Place</p>
+                    <div class="widgets__widget--2"></div>
+                    <p>All-powerful Painting has no control</p>
+                    <div class="widgets__widget--3"></div>
+                    <p>Establish a solid online presence</p>
+                </div>
+            </section>
+
+            <section class="features__section">
+                <div class="features__description">
+                    <h1 class="features__heading">
+                        Features that give you a real feel
+                    </h1>
+                    <button class="features__button">Download Now</button>
+                </div>
+                <div class="features__picture">
+                    picture
+                </div>
+            </section>
+
+            <section class="reviews__section">
+                <div class="reviews__box">
+                    <h1 class="reviews__heading">
+                        Review from our regular users
+                    </h1>
+                    <div class="review">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    </div>
+                </div class="reviews__grading">
+                <div class="review__stars">******</div>
+                <div class="review__name">Robert Smile</div>
+    </div>
+    </div>
+    </section>
+
+    <section class="price__section">
+        <h2 class="price__heading">Unlock full Power</h2>
+        <div class="price__subheading">Lorem ipsum dolor sit...</div>
+
+        <div class="price__box">
+
+            <div class="price__box_heading">
+                <div class="price__box_offer">Basic</div>
+                <div class="price__box_price">$06</div>
+            </div>
+            <div class="price__box_content">
+                <p>One User</p>
+                <p>1000 ui elements</p>
+                <p>Webmail Support</p>
+                <p>100GB Cloud Storage</p>
+            </div>
+            <button class="price__button">Get Now</button>
+
+        </div>
+
+        <div class="price__box">
 
             <div class="price__box">
-
                 <div class="price__box_heading">
-                    <div class="price__box_offer">Basic</div>
+                    <div class="price__box_offer">Team</div>
+                    <div class="price__box_price">$06</div>
+                </div>
+                <div class="price__box_content">
+                    <p>One User</p>
+                    <p>1000 ui elements</p>
+                    <p>Webmail Support</p>
+                    <p>100GB Cloud Storage</p>
+                    <p>Unlimited Users Limit</p>
+                </div>
+                <button class="price__button">Get Now</button>
+            </div>
+
+        </div>
+
+        <div class="price__box">
+
+            <div class="price__box">
+                <div class="price__box_heading">
+                    <div class="price__box_offer">Buisness</div>
                     <div class="price__box_price">$06</div>
                 </div>
                 <div class="price__box_content">
@@ -130,58 +173,22 @@
                     <p>100GB Cloud Storage</p>
                 </div>
                 <button class="price__button">Get Now</button>
-
             </div>
 
-            <div class="price__box">
+        </div>
 
-                <div class="price__box">
-                    <div class="price__box_heading">
-                        <div class="price__box_offer">Team</div>
-                        <div class="price__box_price">$06</div>
-                    </div>
-                    <div class="price__box_content">
-                        <p>One User</p>
-                        <p>1000 ui elements</p>
-                        <p>Webmail Support</p>
-                        <p>100GB Cloud Storage</p>
-                        <p>Unlimited Users Limit</p>
-                    </div>
-                    <button class="price__button">Get Now</button>
-                </div>
-
-            </div>
-
-            <div class="price__box">
-
-                <div class="price__box">
-                    <div class="price__box_heading">
-                        <div class="price__box_offer">Buisness</div>
-                        <div class="price__box_price">$06</div>
-                    </div>
-                    <div class="price__box_content">
-                        <p>One User</p>
-                        <p>1000 ui elements</p>
-                        <p>Webmail Support</p>
-                        <p>100GB Cloud Storage</p>
-                    </div>
-                    <button class="price__button">Get Now</button>
-                </div>
-
-            </div>
-
-        </section>
+    </section>
 
 
-        <section class="buy__section">
-            <h2 class="buy__heading">
-                start from now and increase productivity
-            </h2>
-            <div class="buy__images_box">
-                <div class="buy__img">App Store</div>
-                <div class="buy__img">Google Play</div>
-            </div>
-        </section>
+    <section class="buy__section">
+        <h2 class="buy__heading">
+            start from now and increase productivity
+        </h2>
+        <div class="buy__images_box">
+            <div class="buy__img">App Store</div>
+            <div class="buy__img">Google Play</div>
+        </div>
+    </section>
 
     </main>
 
@@ -244,7 +251,7 @@
         <div class="footer__section--black">
             <div class="footer__copywrite">
                 <p>Copywrite 2020 All Right Reserved | </p>
-                <p>This temple is made with heart by 
+                <p>This temple is made with heart by
                     <span>Colorlib</span>
                 </p>
             </div>
