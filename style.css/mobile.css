@@ -3,6 +3,11 @@ body {
     color: #595251;
 }
 
+.heading {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 30px 0;
+}
 
 .menu__box {
     background-color: #2c2c2c;
@@ -38,20 +43,24 @@ body {
     padding-bottom: 30px;
 }
 
-.hero__button {
+.button {
     width: 200px;
     border-radius: 10px;
     height: 50px;
     border: none;
-    background-color: #37ebed;
     color: #fff;
     margin-bottom: 30px;
+    background-color: transparent;
+    font-size: 1.2rem;
+}
+
+.hero__button {
+    background-color: #37ebed;
 }
 
 .hero__picture img{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 10px auto;
     width: 90%;
 }
 
@@ -59,11 +68,6 @@ body {
     padding: 20px 10px;
 }
 
-.widgets__headings {
-    font-size: 1.5rem;
-    text-align: center;
-    padding: 30px 0;
-}
 .widgets__subheadings {
     font-size: 1.25rem;
     text-align: center;
@@ -115,3 +119,60 @@ body {
     display: block;
     padding-top: 20px;
 }
+
+.features__section {
+    padding: 20px 30px;
+}
+
+.features__button {
+    background-color: #0181f5;
+}
+
+.features__heading {
+    text-align: left;
+}
+
+.features__text {
+    font-size: 1.1rem;
+    padding-bottom: 30px;
+}
+
+
+.reviews__section {
+    background: linear-gradient(to top, #017ff5a9, #017ff58e), url(../images/banner/testmonial.png) no-repeat top center;
+    height: 450px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.reviews__box {
+    padding: 30px;
+}
+
+.reviews__heading {
+    color: #fff;
+}
+
+.review {
+    color: #fff;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.review__grading {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.review__name {
+    color: #fff;
+}
+
+.checked {
+    color: orange;
+  }
