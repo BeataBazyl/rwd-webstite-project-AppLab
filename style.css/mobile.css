@@ -269,13 +269,49 @@ body {
 .footer__section {
     background-color: #1f1f1f;
     color: #fff;
-    padding: 30px;
 }
 
-.footer__social {
-    padding: 10px;
-}
+
 
 .icon {
     padding: 10px;
+}
+
+.fa-brands {
+    padding: 20px 10px 20px 0;
+}
+
+.footer__heading {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+.footer__subheading {
+    color: #8d8d8c;
+}
+
+.footer_heading--medium {
+    font-size: 1.2rem;
+    padding: 20px 0;
+
+}
+
+.footer__link {
+    font-size: 0.8rem;
+    padding: 10px 0;
+    color: #8d8d8c;
+}
+
+.footer__section--grey {
+    padding: 30px;
+}
+
+.footer__section--black {
+    background-color: #000;
+    width: 100%;
+    color: #8d8d8c;
+    padding: 20px;
+    font-size: 0.8rem;
+    text-align: center;
 }
