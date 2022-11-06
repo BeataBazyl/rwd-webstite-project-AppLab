@@ -28,11 +28,6 @@
 
     <link
         rel="stylesheet"
-        href="./style.css/global.css"
-    />
-
-    <link
-        rel="stylesheet"
         media="(max-width:600px)"
         href="./style.css/mobile.css"
     >
@@ -52,7 +47,6 @@
 </head>
 
 <body>
-
     <header class="header__menu">
         <div class="menu__box">
             <h1 class="menu__heading">
@@ -66,21 +60,36 @@
                 >
                 <ul class="menu__list">
                     <li class="menu__item">
-                        <a href="#Start" class="menu__link">Start</a>
+                        <a
+                            href="#Start"
+                            class="menu__link"
+                        >Start</a>
                     </li>
                     <li class="menu__item">
-                        <a href="#Features" class="menu__link">Features</a>
+                        <a
+                            href="#Features"
+                            class="menu__link"
+                        >Features</a>
                     </li>
                     <li class="menu__item">
-                        <a href="#Review" class="menu__link">Review</a>
+                        <a
+                            href="#Review"
+                            class="menu__link"
+                        >Review</a>
                     </li>
                     <li class="menu__item">
-                        <a href="#Plans" class="menu__link">Plans</a>
+                        <a
+                            href="#Plans"
+                            class="menu__link"
+                        >Plans</a>
                     </li>
                 </ul>
             </nav>
         </div>
-        <div class="hero" id="Start">
+        <div
+            class="hero"
+            id="Start"
+        >
             <div class="hero__description">
                 <h1 class="hero__heading">
                     Promote Your App With Applab
@@ -101,16 +110,25 @@
         <section class="widgets__section">
             <h2 class="heading">Save your time using applab</h2>
             <div class="widgets__subheadings">
-                <div class="widgets__widget--1"></div>
-                <p>Manage team in One Place</p>
-                <div class="widgets__widget--2"></div>
-                <p>All-powerful Painting has no control</p>
-                <div class="widgets__widget--3"></div>
-                <p>Establish a solid online presence</p>
+                <div class="widget">
+                    <div class="widgets__widget--1"></div>
+                    <p>Manage team in One Place</p>
+                </div>
+                <div class="widget">
+                    <div class="widgets__widget--2"></div>
+                    <p>All-powerful Painting has no control</p>
+                </div>
+                <div class="widget">
+                    <div class="widgets__widget--3"></div>
+                    <p>Establish a solid online presence</p>
+                </div>
             </div>
         </section>
 
-        <section class="features__section" id="Features">
+        <section
+            class="features__section"
+            id="Features"
+        >
             <div class="features__description">
                 <h2 class="features__heading heading">
                     Features that give you a real feel
@@ -124,7 +142,10 @@
             </div>
         </section>
 
-        <section class="reviews__section" id="Review">
+        <section
+            class="reviews__section"
+            id="Review"
+        >
             <div class="reviews__box">
                 <h2 class="heading reviews__heading">
                     Review from our regular users
@@ -145,56 +166,61 @@
             </div>
         </section>
 
-        <section class="price__section" id="Plans">
+        <section
+            class="price__section"
+            id="Plans"
+        >
             <h2 class="heading">Unlock full Power</h2>
             <div class="price__subheading">Lorem ipsum dolor sit. Lorem, ipsum dolor sit amet consectetur adipisicing
                 elit</div>
 
-            <div class="price__box">
+            <div class="price__box--flex">
 
-                <div class="price__box_heading price__box_heading--1">
-                    <div class="price__box_offer">Basic</div>
-                    <div class="price__box_price price__box_price--1">$06</div>
+                <div class="price__box">
+
+                    <div class="price__box_heading price__box_heading--1">
+                        <div class="price__box_offer">Basic</div>
+                        <div class="price__box_price price__box_price--1">$06</div>
+                    </div>
+                    <ul class="price__box_content">
+                        <li>One User</li>
+                        <li>1000 ui elements</li>
+                        <li>Webmail Support</li>
+                        <li>100GB Cloud Storage</li>
+                    </ul>
+                    <button class="price__button button">Get Now</button>
+
                 </div>
-                <ul class="price__box_content">
-                    <li>One User</li>
-                    <li>1000 ui elements</li>
-                    <li>Webmail Support</li>
-                    <li>100GB Cloud Storage</li>
-                </ul>
-                <button class="price__button button">Get Now</button>
 
-            </div>
-
-            <div class="price__box">
-                <div class="price__box_heading price__box_heading--2">
-                    <div class="price__box_offer">Team</div>
-                    <div class="price__box_price price__box_price--2">$06</div>
+                <div class="price__box">
+                    <div class="price__box_heading price__box_heading--2">
+                        <div class="price__box_offer">Team</div>
+                        <div class="price__box_price price__box_price--2">$06</div>
+                    </div>
+                    <ul class="price__box_content">
+                        <li>One User</li>
+                        <li>1000 ui elements</li>
+                        <li>Webmail Support</li>
+                        <li>100GB Cloud Storage</li>
+                        <li>Unlimited Users Limit</li>
+                    </ul>
+                    <button class="price__button button">Get Now</button>
                 </div>
-                <ul class="price__box_content">
-                    <li>One User</li>
-                    <li>1000 ui elements</li>
-                    <li>Webmail Support</li>
-                    <li>100GB Cloud Storage</li>
-                    <li>Unlimited Users Limit</li>
-                </ul>
-                <button class="price__button button">Get Now</button>
-            </div>
 
-            <div class="price__box">
-                <div class="price__box_heading price__box_heading--3">
-                    <div class="price__box_offer">Buisness</div>
-                    <div class="price__box_price price__box_price--3">$06</div>
+                <div class="price__box">
+                    <div class="price__box_heading price__box_heading--3">
+                        <div class="price__box_offer">Buisness</div>
+                        <div class="price__box_price price__box_price--3">$06</div>
+                    </div>
+                    <ul class="price__box_content">
+                        <li>One User</li>
+                        <li>1000 ui elements</li>
+                        <li>Webmail Support</li>
+                        <li>100GB Cloud Storage</li>
+                    </ul>
+                    <button class="price__button button">Get Now</button>
                 </div>
-                <ul class="price__box_content">
-                    <li>One User</li>
-                    <li>1000 ui elements</li>
-                    <li>Webmail Support</li>
-                    <li>100GB Cloud Storage</li>
-                </ul>
-                <button class="price__button button">Get Now</button>
             </div>
-
         </section>
 
 
@@ -214,68 +240,88 @@
 
         <div class="footer__section--grey">
             <div class="footer__box_side">
-                <h3 class="footer__heading">AppLab</h3>
-                <p class="footer__subheading">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur
-                    adipisicing elit.</p>
-                <div class="footer__social">
-                    <a href="http://facebook.com" class="fa-brands fa-facebook"></a>
-                    <a href="http://twitter.com" class="fa-brands fa-twitter"></a>
-                    <a href="http://instagram.com" class="fa-brands fa-instagram"></a>
+
+                <div class="footer__box-side--column">
+
+                    <h3 class="footer__heading">AppLab</h3>
+                    <p class="footer__subheading">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum
+                        dolor
+                        sit amet consectetur
+                        adipisicing elit.</p>
+                    <div class="footer__social">
+                        <a
+                            href="http://facebook.com"
+                            class="fa-brands fa-facebook"
+                        ></a>
+                        <a
+                            href="http://twitter.com"
+                            class="fa-brands fa-twitter"
+                        ></a>
+                        <a
+                            href="http://instagram.com"
+                            class="fa-brands fa-instagram"
+                        ></a>
+                    </div>
+                </div>
+                <div class="footer__box-side--column">
+                    <ul class="footer_heading--medium">Services
+                        <li class="footer__link">
+                            Team management
+                        </li>
+                        <li class="footer__link">
+                            Collaboration
+                        </li>
+                        <li class="footer__link">
+                            Todo
+                        </li>
+                        <li class="footer__link">
+                            Events
+                        </li>
+                    </ul>
                 </div>
             </div>
 
-            <div class="footer__box-side">
 
-                <ul class="footer_heading--medium">Services
-                    <li class="footer__link">
-                        Team management
-                    </li>
-                    <li class="footer__link">
-                        Collaboration
-                    </li>
-                    <li class="footer__link">
-                        Todo
-                    </li>
-                    <li class="footer__link">
-                        Events
-                    </li>
-                </ul>
+            <div class="footer__box_side">
+                <div class="footer__box-side--column">
+                    <ul class="footer_heading--medium">Useful Links
+                        <li class="footer__link">
+                            Pricing
+                        </li>
+                        <li class="footer__link">
+                            Features
+                        </li>
+                        <li class="footer__link">
+                            Blog
+                        </li>
+                        <li class="footer__link">
+                            Contact
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__box-side--column">
+                    <ul class="footer_heading--medium">Downloads
+                        <li class="footer__link">
+                            Download from App Store
+                        </li>
+                        <li class="footer__link">
+                            Download from Play Store
+                    </ul>
+                </div>
 
-                <ul class="footer_heading--medium">Useful Links
-                    <li class="footer__link">
-                        Pricing
-                    </li>
-                    <li class="footer__link">
-                        Features
-                    </li>
-                    <li class="footer__link">
-                        Blog
-                    </li>
-                    <li class="footer__link">
-                        Contact
-                    </li>
-                </ul>
-
-                <ul class="footer_heading--medium">Downloads
-                    <li class="footer__link">
-                        Download from App Store
-                    </li>
-                    <li class="footer__link">
-                        Download from Play Store
-                </ul>
-
-            </div>
-        </div>
-        <div class="footer__section--black">
-            <div class="footer__copywrite">
-                <p>Copywrite 2020 All Right Reserved | </p>
-                <p>This temple is made with heart by
-                    <span>Colorlib</span>
-                </p>
             </div>
         </div>
 
     </footer>
+
+    <div class="copywrite__section--black">
+        <div class="footer__copywrite">
+            <p>Copywrite 2020 All Right Reserved | </p>
+            <p>This temple is made with heart by
+                <span>Colorlib</span>
+            </p>
+        </div>
+    </div>
 
 </body>
 
