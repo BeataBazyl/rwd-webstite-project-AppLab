@@ -15,17 +15,65 @@ body {
     width: 100%;
     justify-content: space-between;
     padding: 10px;
+    position: fixed;
+    z-index: 1;
+    
 }
 
 .menu__heading {
     color: #fff;
 }
 
+
+label::before {
+    font-family: "Font Awesome 5 Free"; 
+    content: "\f0c9";
+    font-weight: 600;
+    color: #fff;
+    padding: 20px;
+}
+
+.menu__nav input {
+    display: none;
+}
+
+.menu__nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.menu__item {
+    margin-bottom: 5px;
+    padding: 10px 20px;
+    text-align: right;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.menu__item:hover {
+    border-right: 3px solid #0181f5;
+}
+
+.menu__link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu__list {
+    display: none;
+}
+
+input:checked + ul {
+    display: block;
+}
+
+
 .hero {
     background-image: url(../images/banner/banner.png);
     background-position: top center;
     background-repeat: no-repeat;
-    height: 900px;
+    padding-top: 60px;
 }
 
 .hero__description {
@@ -61,7 +109,6 @@ body {
 .hero__picture img {
     display: block;
     margin: 10px auto;
-    width: 90%;
 }
 
 .widgets__section {
