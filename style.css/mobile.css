@@ -17,7 +17,7 @@ body {
     justify-content: space-between;
     padding: 10px;
     position: fixed;
-    z-index: 1;
+    z-index: 100;
     
 }
 
@@ -50,6 +50,7 @@ label::before {
     text-align: right;
     color: #fff;
     font-size: 1.2rem;
+    border-right: 3px solid transparent;
 }
 
 .menu__item:hover {
@@ -69,6 +70,40 @@ input:checked + ul {
     display: block;
 }
 
+.menu__link--dropdown {
+    position: relative;
+}
+
+.menu__link--dropdown:hover > .dropdown {
+    display: block;
+    position: static;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    top: 100%;
+    width: 100%;
+    display: none;
+}
+
+.dropdown__link {
+    font-size: 1rem;
+}
+
+.dropdown__link:first-child {
+    padding-top: 10px;
+}
+
+.dropdown__link a:hover{
+    color: #5db2ff;
+}
+
+.dropdown a {
+    text-decoration: none;
+    color: #fff;
+}
 
 .hero {
     background-image: url(../images/banner/banner.png);
@@ -103,8 +138,14 @@ input:checked + ul {
     font-size: 1.2rem;
 }
 
+.hero__button:hover {
+     background-color: #54fcff;
+     transition: all 0.5s ease-in-out;
+}
+
 .hero__button {
     background-color: #37ebed;
+    transition: all 0.5s ease-in-out;
 }
 
 .hero__picture img {
@@ -242,6 +283,7 @@ input:checked + ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #fff;
 }
 
 .price__box_heading {
@@ -272,6 +314,10 @@ input:checked + ul {
     color: #0181f5;
     border-radius: 5px;
     width: 150px;
+}
+
+.price__button:hover {
+    border: 2px solid #0181f5;
 }
 
 .price__box_content {
@@ -364,4 +410,9 @@ input:checked + ul {
     padding: 20px;
     font-size: 0.8rem;
     text-align: center;
+}
+
+
+.button__download {
+    display: none;
 }

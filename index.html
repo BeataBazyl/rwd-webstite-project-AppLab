@@ -48,49 +48,64 @@
 
 <body>
     <header class="header__menu">
-        <div class="menu__box">
-            <h1 class="menu__heading">
-                <img src="./images/logo.png">
-            </h1>
-            <nav class="menu__nav">
-                <label for="menu-switcher"></label>
-                <input
-                    type="checkbox"
-                    id="menu-switcher"
-                >
-                <ul class="menu__list">
-                    <li class="menu__item">
-                        <a
-                            href="#Start"
-                            class="menu__link"
-                        >Start</a>
-                    </li>
-                    <li class="menu__item">
-                        <a
-                            href="#Features"
-                            class="menu__link"
-                        >Features</a>
-                    </li>
-                    <li class="menu__item">
-                        <a
-                            href="#Review"
-                            class="menu__link"
-                        >Review</a>
-                    </li>
-                    <li class="menu__item">
-                        <a
-                            href="#Plans"
-                            class="menu__link"
-                        >Plans</a>
-                    </li>
-                </ul>
-            </nav>
+        <div class="container__desktop">
+            <div class="menu__box">
+                <h1 class="menu__heading">
+                    <img src="./images/logo.png">
+                </h1>
+                <nav class="menu__nav">
+                    <label for="menu-switcher"></label>
+                    <input
+                        type="checkbox"
+                        id="menu-switcher"
+                    >
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a
+                                href="#Start"
+                                class="menu__link"
+                            >Home</a>
+                        </li>
+                        <li class="menu__item">
+                            <a
+                                href="#Features"
+                                class="menu__link"
+                            >Features</a>
+                        </li>
+                        <li class="menu__item">
+                            <a
+                                href="#Review"
+                                class="menu__link"
+                            >Blog</a>
+                        </li>
+                        <li class="menu__item menu__link--dropdown">
+                            <a
+                                href="#Plans"
+                                class="menu__link"
+                            >Pricing</a>
+                            <ul class="dropdown">
+                                <li class="dropdown__link"><a href="#Basic">Basic</a></li>
+                                <li class="dropdown__link"><a href="#Team">Team</a></li>
+                                <li class="dropdown__link"><a href="#Buisness">Buisness</a></li>
+                    </ul>
+                        </li>
+                        <li class="menu__item">
+                            <a
+                                href="#Contact"
+                                class="menu__link"
+                            >Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+                <button class="button__download">Download
+                </button>
+            </div>
         </div>
         <div
             class="hero"
             id="Start"
         >
-            <div class="hero__description">
+            <div class="hero__description container__desktop">
                 <h1 class="hero__heading">
                     Promote Your App With Applab
                 </h1>
@@ -107,7 +122,7 @@
 
     <main>
 
-        <section class="widgets__section">
+        <section class="widgets__section container__desktop">
             <h2 class="heading">Save your time using applab</h2>
             <div class="widgets__subheadings">
                 <div class="widget">
@@ -126,7 +141,7 @@
         </section>
 
         <section
-            class="features__section"
+            class="features__section container__desktop"
             id="Features"
         >
             <div class="features__description">
@@ -146,7 +161,7 @@
             class="reviews__section"
             id="Review"
         >
-            <div class="reviews__box">
+            <div class="reviews__box container__desktop">
                 <h2 class="heading reviews__heading">
                     Review from our regular users
                 </h2>
@@ -167,7 +182,7 @@
         </section>
 
         <section
-            class="price__section"
+            class="price__section container__desktop"
             id="Plans"
         >
             <h2 class="heading">Unlock full Power</h2>
@@ -176,7 +191,7 @@
 
             <div class="price__box--flex">
 
-                <div class="price__box">
+                <div class="price__box" id="Basic">
 
                     <div class="price__box_heading price__box_heading--1">
                         <div class="price__box_offer">Basic</div>
@@ -192,7 +207,7 @@
 
                 </div>
 
-                <div class="price__box">
+                <div class="price__box" id="Team">
                     <div class="price__box_heading price__box_heading--2">
                         <div class="price__box_offer">Team</div>
                         <div class="price__box_price price__box_price--2">$06</div>
@@ -207,7 +222,7 @@
                     <button class="price__button button">Get Now</button>
                 </div>
 
-                <div class="price__box">
+                <div class="price__box" id="Buisness">
                     <div class="price__box_heading price__box_heading--3">
                         <div class="price__box_offer">Buisness</div>
                         <div class="price__box_price price__box_price--3">$06</div>
@@ -225,7 +240,7 @@
 
 
         <section class="buy__section">
-            <h2 class="buy__heading heading">
+            <h2 class="buy__heading heading container__desktop">
                 Get start from now and increase productivity
             </h2>
             <div class="buy__images_box">
@@ -236,9 +251,12 @@
 
     </main>
 
-    <footer class="footer__section">
+    <footer
+        class="footer__section"
+        id="Contact"
+    >
 
-        <div class="footer__section--grey">
+        <div class="footer__section--grey container__desktop">
             <div class="footer__box_side">
 
                 <div class="footer__box-side--column">
@@ -264,7 +282,7 @@
                     </div>
                 </div>
                 <div class="footer__box-side--column">
-                    <ul class="footer_heading--medium">Services
+                    <ul class="footer_heading--medium footer_heading--part">Services
                         <li class="footer__link">
                             Team management
                         </li>
@@ -284,7 +302,7 @@
 
             <div class="footer__box_side">
                 <div class="footer__box-side--column">
-                    <ul class="footer_heading--medium">Useful Links
+                    <ul class="footer_heading--medium footer_heading--part">Useful Links
                         <li class="footer__link">
                             Pricing
                         </li>
@@ -300,7 +318,7 @@
                     </ul>
                 </div>
                 <div class="footer__box-side--column">
-                    <ul class="footer_heading--medium">Downloads
+                    <ul class="footer_heading--medium footer_heading--part">Downloads
                         <li class="footer__link">
                             Download from App Store
                         </li>
@@ -315,7 +333,7 @@
     </footer>
 
     <div class="copywrite__section--black">
-        <div class="footer__copywrite">
+        <div class="footer__copywrite container__desktop">
             <p>Copywrite 2020 All Right Reserved | </p>
             <p>This temple is made with heart by
                 <span>Colorlib</span>
