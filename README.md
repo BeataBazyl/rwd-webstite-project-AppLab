@@ -12,7 +12,7 @@ desktop (from 1200px)
 
 #Screenshot
 
-![Uploading beatabazyl.github.io_rwd-webstite-project-AppLab_(Nest Hub Max).png…]()
+![beatabazyl github io_rwd-webstite-project-AppLab_(Nest Hub Max)](https://user-images.githubusercontent.com/79706469/217598007-bc3dbeef-7d55-425c-8a4f-96155974929b.png)
 
 Mobile
 
