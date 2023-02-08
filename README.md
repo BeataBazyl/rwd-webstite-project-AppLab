@@ -1,6 +1,6 @@
 Live view: https://beatabazyl.github.io/rwd-webstite-project-AppLab/
 
-#The challenge
+###The challenge
 
 The project was prepared for three breakpoints, using the mobile first convention. Project based on design from Colorlib.
 
@@ -10,7 +10,7 @@ mobile ( to 600px )
 tablet (from 601px to 1200px)
 desktop (from 1200px)
 
-#Screenshot
+###Screenshot
 
 ![beatabazyl github io_rwd-webstite-project-AppLab_(Nest Hub Max)](https://user-images.githubusercontent.com/79706469/217598007-bc3dbeef-7d55-425c-8a4f-96155974929b.png)
 
